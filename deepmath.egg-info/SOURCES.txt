@@ -1,0 +1,7 @@
+README.md
+setup.py
+deepmath/__init__.py
+deepmath.egg-info/PKG-INFO
+deepmath.egg-info/SOURCES.txt
+deepmath.egg-info/dependency_links.txt
+deepmath.egg-info/top_level.txt
