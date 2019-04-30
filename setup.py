@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name="deepmath",
     version="0.0.1",
-    author="math",
+    author="mathraim",
     author_email="artmath1998@gmail.com",
     description="A small example package",
     long_description=long_description,
