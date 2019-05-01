@@ -33,8 +33,7 @@ class Optimizer():
         optimizer : str
             name of the optimizer child to switch it to this class
         """
-
-        from ..optimizers import adam, rmsprop, momentum, sgd
+        from deepmath.optimizers import adam, rmsprop, momentum, sgd
         dict_optimizers = {
             'adam': adam.Adam,
             'rmsprop': rmsprop.RMSprop,
