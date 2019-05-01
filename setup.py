@@ -5,10 +5,10 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="deepmath",
-    version="0.0.2",
+    version="0.1",
     author="Raiymbek",
     author_email="artmath1998@gmail.com",
-    description="A small example package",
+    description="A machine learning library for educational purposes ",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/mathraim/deepmath",
