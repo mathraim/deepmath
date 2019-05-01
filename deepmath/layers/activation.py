@@ -46,7 +46,7 @@ class Activation(Layer):
             type of the activation function.
         """
 
-        from activation_functions import sigmoid,tanh,relu,lrelu
+        from .activation_functions import sigmoid,tanh,relu,lrelu
         switcher_for_activ = {
             'sigmoid': sigmoid.Sigmoid,
             'tanh': tanh.Tanh,
