@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="deepmath",
-    version="0.0.4",
+    version="0.2",
     author="Raiymbek",
     author_email="artmath1998@gmail.com",
     description="A machine learning library for educational purposes ",
