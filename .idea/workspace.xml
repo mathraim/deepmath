@@ -3,7 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="acdce2ca-36ec-474b-b814-13291f00b7c3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deepmath/layers/activation.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepmath/layers/activation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepmath/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepmath/base_classes/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepmath/base_classes/layer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepmath/base_classes/network.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepmath/base_classes/optimizer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepmath/layers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepmath/layers/activation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepmath/layers/activation_functions/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepmath/layers/activation_functions/lrelu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepmath/layers/activation_functions/relu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepmath/layers/activation_functions/sigmoid.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepmath/layers/activation_functions/tanh.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepmath/layers/dense.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepmath/optimizers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepmath/optimizers/adam.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepmath/optimizers/momentum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepmath/optimizers/rmsprop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepmath/optimizers/sgd.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,14 +42,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="972" />
+          <entry key="py" value="983" />
           <entry key="txt" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="15" />
-          <entry key="Python" value="972" />
+          <entry key="Python" value="983" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -40,14 +57,14 @@
           <entry key="LICENSE" value="2" />
           <entry key="gz" value="2" />
           <entry key="md" value="1" />
-          <entry key="py" value="54" />
+          <entry key="py" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="54" />
+          <entry key="Python" value="55" />
         </counts>
       </usages-collector>
     </session>
@@ -57,17 +74,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deepmath/layers/activation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
+            <state relative-caret-position="120">
+              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -141,6 +149,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/deepmath/base_classes" />
     </key>
   </component>
@@ -156,7 +165,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.setup">
+  <component name="RunManager" selected="Python.activation">
     <configuration name="activation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="deepmath" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -227,8 +236,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.setup" />
         <item itemvalue="Python.activation" />
+        <item itemvalue="Python.setup" />
         <item itemvalue="Python.layer" />
       </list>
     </recent_temporary>
@@ -328,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1556674134805</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="initial commit">
+      <created>1556692090036</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1556692090036</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -482,13 +498,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deepmath/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/deepmath/layers/activation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
@@ -496,10 +505,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/deepmath/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="120">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
         </state>
       </provider>
     </entry>
