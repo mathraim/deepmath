@@ -1,6 +1,6 @@
 Machine learnnning library build only on numpy for educational purposes
 
-It will be my collection of machine learning algorithms implemented only numpy and set up in a package
+It will be my collection of machine learning algorithms implemented only numpy and set up in a package. It is planned to Convolutional and Reccurent Layers classes, and just usual mahchhine learning methods
 
 The examples of using deepmath is represented in **test** folder.
 
